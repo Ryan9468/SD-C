@@ -1,7 +1,7 @@
 #include "main.h"
 void apps::calculator() {
     char confirm;
-    cout << "\n" << "Are you sure? [Y] or [y]" << "\n";
+    cout << "\n" << "Are you sure? [Y] or [N]" << "\n";
     cin >> confirm;
     while (confirm == 'y' || confirm == 'Y') {
         double first, second;
@@ -48,7 +48,7 @@ void apps::calculator() {
         if (imp == 'Q' || imp == 'q') {
             return;
         }
-        cout << "Would you like to keep using the calculator? [Y] or [y]" << "\n";
+        cout << "Would you like to keep using the calculator? [Y] or [N]" << "\n";
         cin >> confirm;
     }
 }
