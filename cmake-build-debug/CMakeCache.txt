@@ -247,9 +247,6 @@ CMAKE_STRIP:FILEPATH=C:/Users/John Doe/AppData/Local/JetBrains/CLion 2023.1.2/bi
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//The directory containing a CMake configuration file for OpenCV.
-OpenCV_DIR:PATH=OpenCV_DIR-NOTFOUND
-
 //Value Computed by CMake
 SD_C_BINARY_DIR:STATIC=D:/Coding/C Plus Plus/SD-C/cmake-build-debug
 
@@ -424,8 +421,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_STRIP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[D:/opencv-4.8.0/opencv/BUILD][v4.8.0()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 
