@@ -1,13 +1,7 @@
 #ifndef SD_C_MAIN_H
 #define SD_C_MAIN_H
 #include <bits/stdc++.h>
-#include "opencv2/core/version.hpp"
-#include "opencv2/core/cvdef.h"
-#include "opencv2/core.hpp"
-#include "opencv2/imgproc.hpp"
-#include "opencv2/videoio.hpp"
 using namespace std;
-using namespace cv;
 namespace apps {
     // calculator app functions
     void multiply(double first_num, double second_num);
@@ -45,7 +39,7 @@ namespace apps {
 
     void metric();
 
-    // Video converter
-    int Video();
+    // CS Class Examples
+    void String_Concatination();
 };
 #endif //SD_C_MAIN_H

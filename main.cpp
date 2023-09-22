@@ -15,6 +15,12 @@ int main() {
     if(response2 == 'Y' || response2 == 'y'){
         metric();
     };
+    cout  <<"\n" <<  "Would you like to use the String Concatinator? [Y] or [N]:";
+    cin >> response2;
+    cout << endl;
+    if(response2 == 'Y' || response2 == 'y'){
+        String_Concatination();
+    };
     chrono::high_resolution_clock::time_point stop = chrono::high_resolution_clock::now();
     chrono::duration<double> time_span = duration_cast<chrono::duration<double>>(stop - start);
     cout << "You've used this program for: " << time_span << "\n";
