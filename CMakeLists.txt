@@ -3,11 +3,8 @@ project(SD_C)
 set(CMAKE_CXX_STANDARD 23)
 add_executable(SD_C main.cpp
         main.h
-        calc.cpp
-        metric.cpp
-        metricSource.cpp
-        calcSource.cpp
-        CS_Examples.cpp
-        Test_New_Main.h
-        Test_New_Main_Def.cpp
+        Metric_Source.cpp
+        Calc_Source.cpp
+        Ask_Processes.cpp
+        Game_Source.cpp
 )

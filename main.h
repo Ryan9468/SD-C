@@ -6,6 +6,9 @@
 #include <chrono>
 #include <cmath>
 using namespace std;
+
+void Ask_Processes();
+
 namespace apps {
     enum alpha : int {
         A=0, B=2, C=4
@@ -56,4 +59,19 @@ namespace apps {
     void String_Concatination();
 
 };
+
+class Player{
+public:
+    int posX;
+    int posY;
+    void Move(int X, int Y);
+};
+class Player2{
+public:
+    int posX2;
+    int posY2;
+    void Move2(int X, int Y);
+};
+
+
 #endif //SD_C_MAIN_H
