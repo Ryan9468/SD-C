@@ -8,4 +8,6 @@ add_executable(SD_C main.cpp
         metricSource.cpp
         calcSource.cpp
         CS_Examples.cpp
+        Test_New_Main.h
+        Test_New_Main_Def.cpp
 )

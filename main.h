@@ -1,8 +1,21 @@
 #ifndef SD_C_MAIN_H
 #define SD_C_MAIN_H
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <chrono>
+#include <cmath>
 using namespace std;
 namespace apps {
+    enum alpha : int {
+        A=0, B=2, C=4
+    };
+    // Struct test
+    struct ello{
+        int x;
+        int y;
+    };
+
     // calculator app functions
     void multiply(double first_num, double second_num);
 
@@ -41,5 +54,6 @@ namespace apps {
 
     // CS Class Examples
     void String_Concatination();
+
 };
 #endif //SD_C_MAIN_H
