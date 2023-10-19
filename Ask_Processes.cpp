@@ -36,9 +36,6 @@ void Ask_Processes(){
         cout << "Player 2's move was:";
         Player2.Move(x2,y2);
     };
-    chrono::high_resolution_clock::time_point stop = chrono::high_resolution_clock::now();
-    chrono::duration<double> time_span = duration_cast<chrono::duration<double>>(stop - start);
-    cout << "You've used this program for: " << time_span;
 };
 
 // Side-Test Function
