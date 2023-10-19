@@ -1,3 +1,0 @@
-D:/Coding/C Plus Plus/SD-C/cmake-build-debug/CMakeFiles/SD_C.dir
-D:/Coding/C Plus Plus/SD-C/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/C Plus Plus/SD-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
